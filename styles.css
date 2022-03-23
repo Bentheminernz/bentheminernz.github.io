@@ -6,6 +6,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+h3 {
+    text-align: left;
+}
+p {
+    text-align: left;
+}
 .CodingImage {
     scale: 50%;
 }
