@@ -1,6 +1,7 @@
 ### Hi there 👋
 ### Welcome to my Github! Currently I am learning HTML, CSS and Javascript and I'm using this place to host my Github Page and my projects!
 
+
 <!--
 **Bentheminernz/bentheminernz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
