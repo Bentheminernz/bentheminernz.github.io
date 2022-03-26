@@ -4,7 +4,7 @@ function setup() {
   spaceshipImg = createImg('alien3.png');
   spaceshipImg.hide();
   columns = [];
-  score = 100;
+  score = 0;
 }
 
 function draw() {
