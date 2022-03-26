@@ -1,9 +1,14 @@
 html, body {
+  background-color: black;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 canvas {
-  display: block;
+  border: 3px solid white;
+}
+
+.GoBackText {
+  color: green;
 }
