@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   background('navy');
-  if (frameCount % 100 === 0) {
+  if (frameCount % 70 === 0) {
     columns.push(new Column());
   }
   for (let column of columns) {
@@ -58,7 +58,7 @@ class Player {
 
 class Column {
   constructor() {
-    this.spacing = random(80, 200);
+    this.spacing = random(80, 180);
     this.top = random(height / 2);
     this.bottom = height - (this.top + this.spacing);
     this.x = width - 80;
