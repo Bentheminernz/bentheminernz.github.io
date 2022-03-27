@@ -15,7 +15,7 @@ function draw() {
   for (let column of columns) {
     if (column.hits(spaceship)) {
       column.highlight = true;
-      score = 100;
+      score = 0;
     }
     column.passedBySpaceship(spaceship);
     column.display();
