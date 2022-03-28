@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   background('navy');
-  if (frameCount % 70 === 0) {
+  if (frameCount % 90 === 0) {
     columns.push(new Column());
   }
   for (let column of columns) {
