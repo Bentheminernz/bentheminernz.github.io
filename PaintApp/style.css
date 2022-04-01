@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: green;
+  background: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+button {
+  background: linear-gradient(to right, purple, magenta, pink);
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: black;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#buttons {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+#drawingTools {
+  position: relative;
+  top: 15px;
+  left: -200px;
+}
+.slider {
+  margin-left: 5px;
+}
