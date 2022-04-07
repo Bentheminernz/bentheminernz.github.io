@@ -1,7 +1,7 @@
 function setup() {
   tile = 20;
   createCanvas(500, 360);
-  player1 = new Snake(0, 8, 'red');
+  player1 = new Snake(0, 8, 'yellow');
   player2 = new Snake(width / 20 - 1, 8, 'lime');
   frameRate(5);
   food = new Food();
