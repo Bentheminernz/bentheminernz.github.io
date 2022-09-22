@@ -8,10 +8,13 @@ function setup() {
   slider.parent('drawingTools');
   slider.addClass('slider');
   downloadBtn = createButton('Download drawing');
+  addPaint = createButton('Send me your drawing to be displayed!');
   downloadBtn.parent('buttons');
   downloadBtn.mousePressed(download);
   startBtn = createButton('New canvas');
   startBtn.parent('buttons');
+  addPaint.parent('buttons');
+  addPaint.mousePressed(sendImage);
   startBtn.mousePressed(newCanvas);
 }
 
@@ -25,6 +28,10 @@ function draw() {
 
 function download() {
   save('drawing.jpg');
+}
+
+function sendImage() {
+  window.open("https://docs.google.com/forms/d/e/1FAIpQLSfztDjuVan5OHXD1Ous5f81LCC2Bo1tb4t-3fxGHpa2Zw1ozg/viewform?usp=sf_link")
 }
 
 function newCanvas() {

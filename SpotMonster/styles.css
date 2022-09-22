@@ -2,19 +2,47 @@
 
 body {
     margin: 0;
-    color: black;
     background-image: linear-gradient(to top, #ffffff, #e8f5e1, #c5ecd5, #99e4d6, #65d9e2, #35cdec, #00c0f7, #00b0fd, #009dfc, #008afa, #0075f3, #045de9);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
     text-align: center;
+    font-family: 'Poppins, sans-serif';
+    font-size: 18px;
 }
-
+.LearningLogs {
+    text-align: left;
+}
 .AboutLogo {
     height: 35%;
     width: 35%;
 }
+
+.LinkList {
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.Link {
+    float: left;
+}
+  
+.ListLink {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+.LinkBarLogo {
+    float: left;
+}
+
 .GameSelectList {
     list-style-type: none;
     display: flex;
@@ -27,30 +55,10 @@ li.GameSelectListLin {
   text-align: center;
   }
 
-html {
-scroll-behavior: smooth;
-}
-
-a {
-text-decoration: none;
-color: green;
-} 
-
-#down {
-margin-top: 100%;
-padding-bottom: 25%;
-}
-
 ::selection {
     background: #ffffff; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
     background: #ffffff; /* Gecko Browsers */
-}
-
-.blogs {
-    background-image: linear-gradient(to top, #ffffff, #e8f5e1, #c5ecd5, #99e4d6, #65d9e2, #35cdec, #00c0f7, #00b0fd, #009dfc, #008afa, #0075f3, #045de9);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
 }

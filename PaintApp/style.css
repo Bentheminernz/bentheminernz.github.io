@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
-  color: green;
-  background: black;
+  background-image: linear-gradient(to top, #ffffff, #e8f5e1, #c5ecd5, #99e4d6, #65d9e2, #35cdec, #00c0f7, #00b0fd, #009dfc, #008afa, #0075f3, #045de9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins, sans-serif';
   font-size: 18px;
 }
 canvas {
   padding: 0;
   margin: auto;
   display: block;
+  padding-bottom: 5px;
 }
 button {
-  background: linear-gradient(to right, purple, magenta, pink);
+  background: linear-gradient(to right, #ffffff, #e8f5e1, #c5ecd5, #99e4d6, #65d9e2, #35cdec, #00c0f7, #00b0fd, #009dfc, #008afa, #0075f3, #045de9);
   padding: 10px 20px;
   margin-right: 10px;
   color: black;
@@ -28,9 +32,18 @@ button {
 }
 #drawingTools {
   position: relative;
-  top: 15px;
   left: -200px;
+  padding: 7px;
+  margin-right: 9px;
 }
 .slider {
   margin-left: 5px;
+}
+
+::selection {
+  background: #ffffff; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #ffffff; /* Gecko Browsers */
 }

@@ -5,6 +5,7 @@ function setup() {
   spaceshipImg.hide();
   columns = [];
   score = 0;
+  highScore = 0;
 }
 
 function draw() {
@@ -14,6 +15,7 @@ function draw() {
   }
   for (let column of columns) {
     if (column.hits(spaceship)) {
+      updateHighScore();
       column.highlight = true;
       score = 0;
     }
@@ -21,11 +23,21 @@ function draw() {
     column.display();
     column.move();
   }
+  textSize(32);
+  fill('red')
+  text('High Score: ' + highScore, 300, 24);
   spaceship.display();
   spaceship.update();
   fill('red');
   textSize(32);
-  text(score, 440, 30);
+  text(score, 7, 27);
+}
+
+function updateHighScore() {
+  if (score > highScore) {
+    score = score - 1;
+    highScore = score;
+  }
 }
 
 function keyPressed() {

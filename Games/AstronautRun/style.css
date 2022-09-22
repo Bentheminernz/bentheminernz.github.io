@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html, body {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-family: 'poppins, sans-serif';
 }
-
 canvas {
   display: block;
+}
+
+.LinkList {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.Link {
+  float: left;
+}
+
+.ListLink {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+.LinkBarLogo {
+  float: left;
+}
+
+::selection {
+  background: #ffffff; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #ffffff; /* Gecko Browsers */
 }
